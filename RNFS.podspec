@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.2'
-  s.macos.deployment_target = '10.14'
+  s.macos.deployment_target = '10.13'
 
   s.source          = { :git => "https://github.com/eldh/react-native-fs", :tag => "v#{s.version}" }
   s.source_files    = '*.{h,m}'
